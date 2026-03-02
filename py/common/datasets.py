@@ -143,6 +143,11 @@ def sample_checkerboard(
     Samples the checkerboard dataset using the RealNVP-style construction
     used in try_ll.py.
     """
+    # NOTE: This function currently uses NumPy's global RNG (np.random.*) and
+    # intentionally ignores the provided JAX PRNGKey (`key`). As a result, the
+    # samples are NOT reproducible via JAX seeding and may behave differently
+    # across runs / processes. If you need full JAX-controlled reproducibility,
+    # replace np.random usage with jax.random using `key`.
     del key
     del n_squares
     x1 = np.random.rand(n_samples) * 4.0 - 2.0
