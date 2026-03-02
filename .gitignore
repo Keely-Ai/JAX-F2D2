@@ -1,0 +1,12 @@
+__pycache__/
+check/
+py/common/__pycache__
+py/launchers/__pycache__
+wandb/
+check_1/
+py/configs/__pycache__
+*.err
+*.out
+log/
+logs/
+data/
