@@ -192,7 +192,13 @@ python py/launchers/learn.py --cfg_path configs.celeba64 --slurm_id 0
   - Sample visualizations
 
 
+## Citation
 
-## License
-
-This code is distributed under the MIT License.
+```
+@article{ai2025joint,
+  title={Joint Distillation for Fast Likelihood Evaluation and Sampling in Flow-based Models},
+  author={Ai, Xinyue and He, Yutong and Gu, Albert and Salakhutdinov, Ruslan and Kolter, J Zico and Boffi, Nicholas Matthew and Simchowitz, Max},
+  journal={arXiv preprint arXiv:2512.02636},
+  year={2025}
+}
+```
