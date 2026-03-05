@@ -8,6 +8,8 @@ Modified from **[Official repository](https://github.com/nmboffi/flow-maps) for 
 
 We implement **F2D2** with **Lagrangian Self-Distillation (LSD)** on CelebA-64 and checkerboard.
 
+The Pytorch version can be found [here](https://github.com/Keely-Ai/F2D2).
+
 ## Installation
 
 ### Requirements
